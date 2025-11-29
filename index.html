@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kiran J | Software Developer Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Kiran J, a driven Software Developer specializing in Python, Django, and modern web technologies." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="background-gradient"></div>
+
+  <header id="header">
+    <nav class="navbar container">
+      <a href="#" class="logo">Kiran J<span class="dot">.</span></a>
+      <div class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link btn-primary">Contact Me</a>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section container">
+      <div class="hero-content">
+        <span class="greeting">Hello, I'm</span>
+        <h1 class="hero-title">Kiran J</h1>
+        <h2 class="hero-subtitle">Software Developer</h2>
+        <p class="hero-description">
+          Seeking an entry-level software development role. I am a driven MCA student with a strong foundation in
+          programming, problem-solving, and collaborative development.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="resume.pdf" class="btn btn-outline" download>Download Resume <i class="fas fa-download"></i></a>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/kiran-kiru-62a2a428b" target="_blank" aria-label="LinkedIn"><i
+              class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/kiruuuuuuu" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:kirankiruu675@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="code-card glass">
+          <div class="card-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <div class="card-body">
+            <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">'Kiran J'</span>,
+  <span class="property">role</span>: <span class="string">'Software Dev'</span>,
+  <span class="property">skills</span>: [
+    <span class="string">'Python'</span>, <span class="string">'Django'</span>, 
+    <span class="string">'Java'</span>, <span class="string">'React'</span>
+  ],
+  <span class="property">hardWorker</span>: <span class="boolean">true</span>
+};</code></pre>
+          </div>
+        </div>
+        <div class="glow-effect"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text glass">
+          <p>
+            I am an MCA student with a strong foundation in programming, problem-solving, and collaborative development.
+            I am eager to leverage my analytical skills, attention to detail, and rapid learning ability to contribute
+            innovative solutions and drive organizational success in a dynamic environment.
+          </p>
+          <p>
+            I have hands-on experience with full-stack development using Django and Python, and I am constantly
+            expanding my knowledge in AI and Machine Learning.
+          </p>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Major Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <!-- Backend -->
+        <div class="skill-category glass">
+          <h3>Backend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+            <span class="skill-tag"><i class="fas fa-server"></i> Django</span>
+            <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+            <span class="skill-tag"><i class="fas fa-code"></i> C/C++</span>
+          </div>
+        </div>
+        <!-- Frontend -->
+        <div class="skill-category glass">
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+            <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+            <span class="skill-tag"><i class="fas fa-code"></i> Alpine.js</span>
+          </div>
+        </div>
+        <!-- Database & DevOps -->
+        <div class="skill-category glass">
+          <h3>Database & DevOps</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+            <span class="skill-tag"><i class="fas fa-database"></i> PostgreSQL</span>
+            <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+            <span class="skill-tag"><i class="fab fa-aws"></i> AWS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card glass">
+          <div class="project-image">
+            <div class="placeholder-img">AI Resume Builder</div>
+          </div>
+          <div class="project-content">
+            <h3>AI Resume Builder</h3>
+            <p>A full-stack Django app using Gemini AI to revolutionize resume creation. Automates tasks and provides
+              intelligent insights.</p>
+            <div class="project-tech">
+              <span>Django</span>
+              <span>Python</span>
+              <span>Tailwind</span>
+              <span>PostgreSQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/kiruuuuuuu/ai-resume-builder" target="_blank" class="btn-sm"><i
+                  class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card glass">
+          <div class="project-image">
+            <div class="placeholder-img">Smart Question Paper Generator</div>
+          </div>
+          <div class="project-content">
+            <h3>Smart Question Paper Generator</h3>
+            <p>Django-based app to create, manage, and generate exam papers. Features question bank management and PDF
+              export.</p>
+            <div class="project-tech">
+              <span>Django</span>
+              <span>Python</span>
+              <span>Bootstrap</span>
+              <span>SQLite</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/kiruuuuuuu/Smart-Question-paper-generator" target="_blank" class="btn-sm"><i
+                  class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section container">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item glass">
+          <div class="timeline-date">Feb 2023 - Nov 2025</div>
+          <div class="timeline-content">
+            <h3>MCA in Computer Science</h3>
+            <span class="institution">Bangalore University</span>
+            <p>Grade: 69%</p>
+          </div>
+        </div>
+        <div class="timeline-item glass">
+          <div class="timeline-date">Jan 2020 - Jan 2023</div>
+          <div class="timeline-content">
+            <h3>BCA in Computer Applications</h3>
+            <span class="institution">GT Institute of Management Studies</span>
+            <p>Grade: 76%</p>
+          </div>
+        </div>
+        <div class="timeline-item glass">
+          <div class="timeline-date">Jan 2018 - Jan 2020</div>
+          <div class="timeline-content">
+            <h3>PUC in PCME</h3>
+            <span class="institution">Vivekananda Pre University College</span>
+            <p>Grade: 53%</p>
+          </div>
+        </div>
+        <div class="timeline-item glass">
+          <div class="timeline-date">Jun 2017 - Jan 2018</div>
+          <div class="timeline-content">
+            <h3>SSLC (Private Candidate)</h3>
+            <span class="institution">BSVP High School</span>
+            <p>Karnataka Secondary Education Examination Board</p>
+            <p>Grade: 44.4%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-container glass">
+        <div class="contact-info">
+          <h3>Let's Talk</h3>
+          <p>I'm currently available for entry-level software development roles. If you have an opportunity or just want
+            to connect, feel free to reach out!</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>kirankiruu675@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+91 6362945337</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Bangalore, India</span>
+            </div>
+          </div>
+          <div class="social-links big">
+            <a href="https://www.linkedin.com/in/kiran-kiru-62a2a428b" aria-label="LinkedIn"><i
+                class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/kiruuuuuuu" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <form class="contact-form" action="mailto:kirankiruu675@gmail.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Kiran J. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
