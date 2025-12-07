@@ -19,7 +19,7 @@
 
   <header id="header">
     <nav class="navbar container">
-      <a href="#" class="logo">Kiran J<span class="dot">.</span></a>
+      <a href="#" class="logo">Kiran J</a>
       <div class="nav-links">
         <a href="#home" class="nav-link active">Home</a>
         <a href="#about" class="nav-link">About</a>
@@ -42,8 +42,7 @@
         <h1 class="hero-title">Kiran J</h1>
         <h2 class="hero-subtitle">Software Developer</h2>
         <p class="hero-description">
-          Seeking an entry-level software development role. I am a driven MCA student with a strong foundation in
-          programming, problem-solving, and collaborative development.
+          Seeking an entry-level software development role. Motivated MCA Graduate & Aspiring Python Developer.
         </p>
         <div class="hero-buttons">
           <a href="#projects" class="btn btn-primary">View My Work</a>
@@ -85,23 +84,27 @@
       <div class="about-content">
         <div class="about-text glass">
           <p>
-            I am an MCA student with a strong foundation in programming, problem-solving, and collaborative development.
-            I am eager to leverage my analytical skills, attention to detail, and rapid learning ability to contribute
-            innovative solutions and drive organizational success in a dynamic environment.
+            Hello! I’m Kiran J, a recent Master of Computer Applications (MCA) graduate from Bengaluru University. My
+            journey in tech is driven by a genuine curiosity for how things work on the backend, specifically within the
+            Python and Django ecosystems.
           </p>
           <p>
-            I have hands-on experience with full-stack development using Django and Python, and I am constantly
-            expanding my knowledge in AI and Machine Learning.
+            While I am still early in my career, I pride myself on being a hands-on learner. During my academic studies,
+            I challenged myself to build full-stack applications that solve real-world problems—ranging from automating
+            resume creation with AI to streamlining examination processes for teachers.
+          </p>
+          <p>
+            Beyond coding, I value discipline and teamwork, traits I honed during my NCC training and as a coordinator
+            for university tech events like Techizen-2K24. Currently, I am actively expanding my proficiency in Java and
+            Object-Oriented Programming (OOP) to build a strong foundation for scalable software development. I am eager
+            to join a dynamic team where I can contribute, learn, and grow into a proficient software developer.
           </p>
           <div class="stats-grid">
             <div class="stat-item">
               <span class="stat-number">2+</span>
               <span class="stat-label">Major Projects</span>
             </div>
-            <div class="stat-item">
-              <span class="stat-number">2+</span>
-              <span class="stat-label">Certifications</span>
-            </div>
+
           </div>
         </div>
       </div>
@@ -149,18 +152,17 @@
       <div class="projects-grid">
         <!-- Project 1 -->
         <article class="project-card glass">
-          <div class="project-image">
-            <div class="placeholder-img">AI Resume Builder</div>
-          </div>
           <div class="project-content">
-            <h3>AI Resume Builder</h3>
-            <p>A full-stack Django app using Gemini AI to revolutionize resume creation. Automates tasks and provides
-              intelligent insights.</p>
+            <h3>AI Resume Builder (Capstone Project)</h3>
+            <p>An intelligent resume creation platform powered by AI that helps job seekers build professional resumes
+              with real-time feedback, scoring, and job matching.</p>
             <div class="project-tech">
               <span>Django</span>
               <span>Python</span>
-              <span>Tailwind</span>
+              <span>Gemini API</span>
               <span>PostgreSQL</span>
+              <span>Redis</span>
+              <span>Tailwind CSS</span>
             </div>
             <div class="project-links">
               <a href="https://github.com/kiruuuuuuu/ai-resume-builder" target="_blank" class="btn-sm"><i
@@ -171,18 +173,16 @@
 
         <!-- Project 2 -->
         <article class="project-card glass">
-          <div class="project-image">
-            <div class="placeholder-img">Smart Question Paper Generator</div>
-          </div>
           <div class="project-content">
             <h3>Smart Question Paper Generator</h3>
-            <p>Django-based app to create, manage, and generate exam papers. Features question bank management and PDF
-              export.</p>
+            <p>A web-based solution designed to automate and streamline the examination paper setting process for
+              educational institutions, ensuring error-free and balanced question papers.</p>
             <div class="project-tech">
               <span>Django</span>
               <span>Python</span>
               <span>Bootstrap</span>
-              <span>SQLite</span>
+              <span>SQLite/MySQL</span>
+              <span>PDF Generation</span>
             </div>
             <div class="project-links">
               <a href="https://github.com/kiruuuuuuu/Smart-Question-paper-generator" target="_blank" class="btn-sm"><i
@@ -261,18 +261,12 @@
             <a href="https://github.com/kiruuuuuuu" aria-label="GitHub"><i class="fab fa-github"></i></a>
           </div>
         </div>
-        <form class="contact-form" action="mailto:kirankiruu675@gmail.com" method="post" enctype="text/plain">
-          <div class="form-group">
-            <input type="text" name="name" placeholder="Your Name" required>
-          </div>
-          <div class="form-group">
-            <input type="email" name="email" placeholder="Your Email" required>
-          </div>
-          <div class="form-group">
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
-        </form>
+        <div class="contact-form-container" style="display: flex; justify-content: center; align-items: center;">
+          <a href="mailto:kirankiruu675@gmail.com?subject=Portfolio Inquiry" aria-label="Send email to Kiran J"
+            class="btn btn-primary" style="padding: 1rem 3rem; font-size: 1.2rem;">
+            <i class="fas fa-paper-plane" style="margin-right: 10px;"></i> Mail Me
+          </a>
+        </div>
       </div>
     </section>
   </main>
@@ -282,6 +276,37 @@
       <p>&copy; 2024 Kiran J. All rights reserved.</p>
     </div>
   </footer>
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="modal-overlay">
+    <div class="modal-content glass">
+      <button class="modal-close">&times;</button>
+
+      <div class="modal-body">
+        <div class="carousel-container">
+          <div class="carousel-track">
+            <!-- Images injected via JS -->
+          </div>
+          <button class="carousel-btn prev" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
+          <button class="carousel-btn next" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
+          <div class="carousel-dots"></div>
+        </div>
+
+        <div class="project-details-content">
+          <h2 id="modal-title">Project Title</h2>
+          <div class="modal-tech-stack" id="modal-tech">
+            <!-- Tech tags injected via JS -->
+          </div>
+          <div id="modal-description">
+            <!-- Description injected via JS -->
+          </div>
+          <div class="modal-links" id="modal-links">
+            <!-- Links injected via JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script type="module" src="/main.js"></script>
 </body>

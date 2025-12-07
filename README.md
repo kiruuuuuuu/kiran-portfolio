@@ -9,7 +9,7 @@ A modern, responsive portfolio website built with **Vite**, **HTML**, **CSS**, a
 -   **Interactive Elements**: Smooth scrolling, hover effects, and mobile navigation.
 -   **Project Showcase**: Dedicated section to display projects with links to GitHub.
 -   **Resume Download**: Easy access for employers to download my resume.
--   **Contact Form**: Integrated `mailto` form for quick communication.
+-   **Direct Contact**: One-click "Mail Me" button for quick and easy communication.
 
 ## 🛠️ Tech Stack
 
